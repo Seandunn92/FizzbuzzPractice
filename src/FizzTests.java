@@ -13,4 +13,10 @@ public class FizzTests {
 	public void TwoReturnsTwo() {
 		assertEquals("2", FizzBuzz.answer(2));
 	}
+	@Test
+	public void ThreeReturnsThree() {
+		String expected = "Fizz";
+	    String actual = FizzBuzz.answer(3);
+		assertEquals(expected, actual);
+	}
 }
