@@ -14,11 +14,11 @@ public class FizzTests {
 		assertEquals("2", FizzBuzz.answer(2));
 	}
 	@Test
-	public void Multiplesoffifteen() {
+	public void Multiplesofseventeen() {
 		String expected = "Fizz";
-	    String actual = FizzBuzz.answer(15);
+	    String actual = FizzBuzz.answer(17);
 		assertEquals(expected, actual);
-		actual = FizzBuzz.answer(15);
+		actual = FizzBuzz.answer(17);
 		assertEquals(expected, actual);
 	}
 }
